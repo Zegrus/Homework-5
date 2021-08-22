@@ -1,0 +1,40 @@
+
+
+table {
+       border-collapse: collapse;
+       border-spacing: 10px; /*размер пустот*/
+       width: 50%; /*ширина (отностительно экрана)*/
+       margin: 30px; /*ширина по центру браузера*/
+       padding: 30px;
+       font-family: sans-serif;
+       font-size: 14px;
+       text-align: center;
+       line-height: 30px;
+}
+
+tr th:first-child {
+                   background-color: rgb(212, 233, 250);
+} 
+
+tbody tr:nth-child(1), tbody tr:nth-child(3), tbody tr:nth-child(5), tbody tr:nth-child(7), tbody tr:nth-child(9) {
+                   background-color: whitesmoke;
+}
+
+
+tbody tr:nth-child(2), tbody tr:nth-child(4), tbody tr:nth-child(6), tbody tr:nth-child(8), tbody tr:nth-child(10) {
+                   background-color: rgb(230, 230, 230);
+}
+
+thead tr:first-child {
+                   background-color: rgb(212, 233, 250);
+} 
+
+thead th {
+          position: sticky;
+          top: 0;
+}
+
+thead tr {
+          position: sticky;
+          top: 0;
+}
